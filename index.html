@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+<div id="menu" align="center">
+
+<img src="LOGO.png" height="100" width="100" align="left">
+<br/>
+<h2>
+<a href="#about">About Me</a>
+<a>|</a>
+<a href="#photos">My Photos</a>
+<a>|</a>
+<a href="#playlist">My Playlist</a>
+<a>|</a>
+<a href="#like">Like</a>
+<a>|</a>
+<a href="#qrcoder">QR code</a>
+<a>|</a>
+<a href="#spa">Q&A</a>
+<a>|</a>
+<a href="#contact">Contact Me</a>
+</h2>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>		  
+<section id="about" class="section">
+<h1 align="center"><u>about me</u></h1>
+<br/>
+<center>hello, my name is Ofir Gruner, born and raised in Israel and I'm 22 years old.<br/>
+I am sports freak, Love to see movies, meet with friends and especially sleep.<br/>
+I study Information System Engineering in BGU (Ben-Gurion-University),<br/>
+So far the course I loved the most was AI however I expect to like this course aswell,<br/>
+The idea of making websites is great and I expect to learn how to do it in the course in high level.<br/>
+Meanwhile working on the project I feel like the hard part is just having the syntax right. 
+</center>
+<br/>
+<br/>
+</section>
+
+<section id="photos" class="section">
+<h1 align="center">photos</h1>
+<img src="LOGO.png" width="300" height="300">
+<img src="LOGO.png" width="300" height="300">
+<img src="LOGO.png" width="300" height="300">
+<img src="LOGO.png" width="300" height="300">
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="playlist" class="section">
+<h1 align="center">playlist</h1>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7zsB-C3aNu3Ec0sIHExGIOS-ZKve-TIA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="like" class="section">
+<h1 align="center">me a like</h1>
+
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="qrcoder" class="section">
+<h1 align="center">scan my code</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="spa" class="section">
+<h1 align="center">ans</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+<section id="contact" class="section">
+<h1 align="center">contact me</h1>
+<br/>
+<br/>
+<br/>
+</section>
+
+
+<script type="text/javascript">
+$(function(){
+  $("#nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash); 
+  });
+});
+</script>
+<script type="text/javascript">
+ $(document).scroll(function() {
+    $('#menu').toggle($(this).scrollTop()>1000)
+ });​
+ </script>
+</body>
+</html>
