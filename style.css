@@ -1,10 +1,19 @@
 h1 {
-	color: #000000;
+	color: white;
 	width: 100%; 
 	border-bottom: 20px solid rgb(0, 204, 255); 
 	line-height: 10px;
 	margin: 10px 0 20px; 
 }	
+h2{
+	width: 100%; 
+	border-bottom: 20px solid rgb(16, 134, 202); 
+	line-height: 10px;
+	margin: 10px 0 20px; 
+}	
+a{
+	color: white;
+}
 body {
     margin:0;
     padding:0;
